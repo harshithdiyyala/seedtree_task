@@ -1,0 +1,83 @@
+.homepage-container {
+    display:flex;
+    flex-direction: row;
+    height:100vh;
+    margin:30px 0px 20px 0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    justify-content: center;
+}
+.content-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px;
+    width:50%;
+    height:100vh;
+    margin-left:30px;
+}
+.content-container  h1 {    
+    font-size: 73px;
+    font-weight: 800;
+    line-height: 78px;
+    letter-spacing: 0.0001em;
+    text-align: left;
+    color:rgb(22, 107,142,1);
+    margin-bottom:8px;
+}
+.content-container p {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.book-a-call-btn{
+    margin-left:30px;
+    width: 326px;
+    height: 65px;
+    border-radius: 10px;
+    border-width:0px;
+    background-color: rgb(22, 107,142,1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color:white;
+}
+
+.review-container {
+    display: flex;
+    margin-top:10px;    
+    width:80%
+}
+.review-container img {
+    
+    align-self: flex-start;
+    padding-right:15px;
+    margin-top:28px;
+
+}
+.review-content {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.reviewer {
+    align-self: flex-end;
+}
+
+.image-container {
+    width:50%;
+    margin:0px;
+    justify-content: center;
+}
+.image-container img {
+    height:85vh;
+    width:100%;
+    margin:0px;
+}
